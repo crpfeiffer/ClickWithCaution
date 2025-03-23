@@ -7,6 +7,7 @@ import json
 import io
 import base64
 from PIL import Image
+st.image("./caution.png")
 
 # Load environment variables
 load_dotenv()
@@ -90,7 +91,7 @@ st.markdown(
 # Add logo (replace 'your_logo.png' with your logo file)
 st.markdown("<div class='logo-container'><img = 'caution.png'></div>", unsafe_allow_html=True)
 
-st.markdown("<h1 class='stHeader'>Click With Caution</h1>", unsafe_allow_html=True)
+
 
 # Add directions
 st.markdown("<div class='directions-container'><h3>Instructions:</h3><p>Enter text, upload a file (text, PDF, or image), to analyze for potential scam indicators. Click 'Analyze' to check.</p></div>", unsafe_allow_html=True)
