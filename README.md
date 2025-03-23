@@ -1,0 +1,2 @@
+# ClickWithCaution
+Scam detection
